@@ -1,0 +1,13 @@
+[flake8]
+exclude =
+    .git,
+    .gitignore,
+    *.pot,
+    *.py[co],
+    __pycache__,
+    venv,
+    .env
+    **/migrations/**
+max-line-length=100
+max-complexity=12
+ignore = E501, W503, E203
